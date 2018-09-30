@@ -16,6 +16,7 @@
 
 void konversi_suhu();
 void konversi_satuan_panjang();
+void operatorUnary();
 
 #endif /* MODUL1_H */
 

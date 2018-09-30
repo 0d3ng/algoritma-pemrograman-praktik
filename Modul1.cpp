@@ -6,6 +6,7 @@
 
 #include "Modul1.h"
 #include <iostream>
+#include <valarray>
 
 using namespace std;
 
@@ -33,4 +34,16 @@ void konversi_satuan_panjang() {
     cin >> inchi;
     meter = (0.9144 * yard) + (0.3048 * kaki) + (0.0254 * inchi);
     cout << yard << " yard" << kaki << " kaki" << inchi << " inchi" << meter << " meter";
+}
+
+void operatorUnary(){
+    int A = -5;
+    A = -A;
+    cout << "Nilai A    : " << A << endl;
+    cout << "Nilai ++A  :" << ++A << endl;
+    cout << "Nilai A    :" << A << endl;
+    A = 10;
+    cout << "Nilai A    : " << A << endl;
+    cout << "Nilai A++  :" << A++ << endl;
+    cout << "Nilai A    :" << A << endl;
 }

@@ -13,6 +13,7 @@
 
 #include <cstdlib>
 #include "Modul1.h"
+#include "Tugas.h"
 
 using namespace std;
 
@@ -20,7 +21,10 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    konversi_suhu();
+    //    konversi_suhu();
+    //    operatorUnary();
+    //    nomor2();
+    nomor3();
     return 0;
 }
 
