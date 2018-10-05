@@ -5,7 +5,9 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Modul1.h</itemPath>
+      <itemPath>Modul3/Modul3.h</itemPath>
       <itemPath>Tugas.h</itemPath>
+      <itemPath>Modul3/Tugas3.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,7 +17,9 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Modul1.cpp</itemPath>
+      <itemPath>Modul3/Modul3.cpp</itemPath>
       <itemPath>Tugas.cpp</itemPath>
+      <itemPath>Modul3/Tugas3.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -43,6 +47,14 @@
       <item path="Modul1.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Modul1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul3/Modul3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul3/Modul3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul3/Tugas3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul3/Tugas3.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Tugas.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -74,6 +86,14 @@
       <item path="Modul1.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Modul1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul3/Modul3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul3/Modul3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul3/Tugas3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul3/Tugas3.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Tugas.cpp" ex="false" tool="1" flavor2="0">
       </item>
