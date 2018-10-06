@@ -33,7 +33,8 @@ int main(int argc, char** argv) {
 //    kondisiIfElse();
 //    kondisiIfElseOperatorAnd();
 //    kondisiIfElseOperatorOr();
-    kondisiIfElseOperatorDiskon();
+//    kondisiIfElseOperatorDiskon();
+    menghitungGaji();
     return 0;
 }
 

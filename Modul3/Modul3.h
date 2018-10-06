@@ -19,6 +19,7 @@ void kondisiIfElse();
 void kondisiIfElseOperatorAnd();
 void kondisiIfElseOperatorOr();
 void kondisiIfElseOperatorDiskon();
+void menghitungGaji();
 
 #endif /* MODUL3_H */
 
