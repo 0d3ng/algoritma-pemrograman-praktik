@@ -15,6 +15,7 @@
 #include "Modul1.h"
 #include "Tugas.h"
 #include "Modul3/Modul3.h"
+#include "Modul4/Modul4.h"
 
 using namespace std;
 
@@ -33,7 +34,14 @@ int main(int argc, char** argv) {
 //    kondisiIfElse();
 //    kondisiIfElseOperatorAnd();
 //    kondisiIfElseOperatorOr();
-    kondisiIfElseOperatorDiskon();
+//    kondisiIfElseOperatorDiskon();
+    
+//    Modul 4
+//    =================================
+    praktik1();
+//    praktik2();
+//    praktik3();
+//    praktik4();
     return 0;
 }
 
