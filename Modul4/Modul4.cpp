@@ -10,16 +10,24 @@
 using namespace std;
 
 void praktik1() {
-    int bilangan;
+    float bilangan;
+    int temp;
     cout << "Masukan bilangan: ";
     cin >> bilangan;
+    temp = bilangan;
     cout << endl;
     if (bilangan == 0) {
         cout << "Bilangan nol";
-    } else if (bilangan > 0) {
-        cout << "Bilangan positif";
+    } else if ((bilangan - temp) > 0) {
+        cout << "Bilangan pecahan positif";
+    } else if ((bilangan - temp) < 0) {
+        cout << "Bilangan pecahan negatif";
+    }else if ((bilangan - temp) == 0 && bilangan > 0) {
+        cout << "Bilangan bulat positif";
+    }else if ((bilangan - temp) == 0 && bilangan < 0) {
+        cout << "Bilangan bulat negatif";
     } else {
-        cout << "Bilangan negatif";
+        cout << "Bilangan yang lain.";
     }
 
 }
