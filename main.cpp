@@ -38,9 +38,9 @@ int main(int argc, char** argv) {
     
 //    Modul 4
 //    =================================
-    praktik1();
+//    praktik1();
 //    praktik2();
-//    praktik3();
+    praktik3();
 //    praktik4();
     return 0;
 }

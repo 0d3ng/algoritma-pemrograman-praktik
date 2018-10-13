@@ -22,9 +22,9 @@ void praktik1() {
         cout << "Bilangan pecahan positif";
     } else if ((bilangan - temp) < 0) {
         cout << "Bilangan pecahan negatif";
-    }else if ((bilangan - temp) == 0 && bilangan > 0) {
+    } else if ((bilangan - temp) == 0 && bilangan > 0) {
         cout << "Bilangan bulat positif";
-    }else if ((bilangan - temp) == 0 && bilangan < 0) {
+    } else if ((bilangan - temp) == 0 && bilangan < 0) {
         cout << "Bilangan bulat negatif";
     } else {
         cout << "Bilangan yang lain.";
@@ -67,11 +67,11 @@ void praktik3() {
     cin >> uas;
     cout << "Masukan nilai Tugas: ";
     cin >> tugas;
-    nilaiAkhir = ((0.35 * uts) + (0.45 * uas) + (0.2 * tugas)) / 3;
-    if (nilaiAkhir >= 85) {
-        nilaiHuruf = 'A';
-    } else if (nilaiAkhir >= 70) {
+    nilaiAkhir = ((0.35 * uts) + (0.45 * uas) + (0.2 * tugas));
+    if (nilaiAkhir >= 70 && nilaiAkhir < 85) {
         nilaiHuruf = 'B';
+    } else if (nilaiAkhir >= 85) {
+        nilaiHuruf = 'A';
     } else if (nilaiAkhir >= 55) {
         nilaiHuruf = 'C';
     } else if (nilaiAkhir >= 40) {
