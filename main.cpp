@@ -16,6 +16,7 @@
 #include "Tugas.h"
 #include "Modul3/Modul3.h"
 #include "Modul4/Modul4.h"
+#include "Modul5/Modul5.h"
 
 using namespace std;
 
@@ -40,8 +41,16 @@ int main(int argc, char** argv) {
 //    =================================
 //    praktik1();
 //    praktik2();
-    praktik3();
+//    praktik3();
 //    praktik4();
+    
+//    Modul 5
+//    =================================
+//    switchCase1();
+//    switchCase2();
+//    switchCase3();
+//    switchCase4();
+    tugas();
     return 0;
 }
 

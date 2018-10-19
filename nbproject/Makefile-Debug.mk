@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Modul1.o \
 	${OBJECTDIR}/Modul4/Modul4.o \
+	${OBJECTDIR}/Modul5/Modul5.o \
 	${OBJECTDIR}/Tugas.o \
 	${OBJECTDIR}/main.o
 
@@ -74,6 +75,11 @@ ${OBJECTDIR}/Modul4/Modul4.o: Modul4/Modul4.cpp
 	${MKDIR} -p ${OBJECTDIR}/Modul4
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Modul4/Modul4.o Modul4/Modul4.cpp
+
+${OBJECTDIR}/Modul5/Modul5.o: Modul5/Modul5.cpp
+	${MKDIR} -p ${OBJECTDIR}/Modul5
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Modul5/Modul5.o Modul5/Modul5.cpp
 
 ${OBJECTDIR}/Tugas.o: Tugas.cpp
 	${MKDIR} -p ${OBJECTDIR}
