@@ -1,7 +1,12 @@
 /*
+ * algoritma-pemrograman-praktik
+
  * Copyright (c) 2018
  * All rights reserved.
- * Written by nopri <lepengdados@gmail.com>, 06/10/2018
+ * Written by od3ng created on Oct 26, 2018 9:22:29 PM
+ * Email   : lepengdados@gmail.com
+ * Github  : 0d3ng
+ * Hp      : 085878554150
  */
 
 #include <iostream>
@@ -76,7 +81,7 @@ void kondisiIfElseOperatorDiskon() {
 }
 
 void menghitungGaji() {
-    double gapok, pajak;
+    double gapok, pajak = 0;
     char menikah;
     int anak;
     cout << "Masukan gaji pokok: ";
