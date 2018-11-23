@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Modul4/Modul4.o \
 	${OBJECTDIR}/Modul5/Modul5.o \
 	${OBJECTDIR}/Modul6/Modul6.o \
+	${OBJECTDIR}/Modul7/Modul7.o \
 	${OBJECTDIR}/Tugas.o \
 	${OBJECTDIR}/main.o
 
@@ -92,6 +93,11 @@ ${OBJECTDIR}/Modul6/Modul6.o: Modul6/Modul6.cpp
 	${MKDIR} -p ${OBJECTDIR}/Modul6
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Modul6/Modul6.o Modul6/Modul6.cpp
+
+${OBJECTDIR}/Modul7/Modul7.o: Modul7/Modul7.cpp
+	${MKDIR} -p ${OBJECTDIR}/Modul7
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Modul7/Modul7.o Modul7/Modul7.cpp
 
 ${OBJECTDIR}/Tugas.o: Tugas.cpp
 	${MKDIR} -p ${OBJECTDIR}

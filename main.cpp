@@ -18,6 +18,7 @@
 #include "Modul4/Modul4.h"
 #include "Modul5/Modul5.h"
 #include "Modul6/Modul6.h"
+#include "Modul7/Modul7.h"
 
 using namespace std;
 
@@ -60,7 +61,11 @@ int main(int argc, char** argv) {
 //    contoh2();
 //    contoh3();
 //    tugas1();
-    tugas2();
+//    tugas2();
+    
+//    modul 7
+//    =====================================
+    sistemMenu();
     return 0;
 }
 
