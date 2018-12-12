@@ -5,10 +5,14 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Modul1.h</itemPath>
+      <itemPath>Modul10/Modul10.h</itemPath>
+      <itemPath>Modul11/Modul11.h</itemPath>
       <itemPath>Modul4/Modul4.h</itemPath>
       <itemPath>Modul5/Modul5.h</itemPath>
       <itemPath>Modul6/Modul6.h</itemPath>
       <itemPath>Modul7/Modul7.h</itemPath>
+      <itemPath>Modul8/Modul8.h</itemPath>
+      <itemPath>Modul9/Modul9.h</itemPath>
       <itemPath>Tugas.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -19,11 +23,15 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Modul1.cpp</itemPath>
+      <itemPath>Modul10/Modul10.cpp</itemPath>
+      <itemPath>Modul11/Modul11.cpp</itemPath>
       <itemPath>Modul3/Modul3.cpp</itemPath>
       <itemPath>Modul4/Modul4.cpp</itemPath>
       <itemPath>Modul5/Modul5.cpp</itemPath>
       <itemPath>Modul6/Modul6.cpp</itemPath>
       <itemPath>Modul7/Modul7.cpp</itemPath>
+      <itemPath>Modul8/Modul8.cpp</itemPath>
+      <itemPath>Modul9/Modul9.cpp</itemPath>
       <itemPath>Tugas.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -52,12 +60,24 @@
           <linkerDynSerch>
             <pElem>.</pElem>
             <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerDynSerch>
         </linkerTool>
       </compileType>
       <item path="Modul1.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Modul1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul10/Modul10.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul10/Modul10.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul11/Modul11.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul11/Modul11.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Modul3/Modul3.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -76,6 +96,14 @@
       <item path="Modul7/Modul7.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Modul7/Modul7.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul8/Modul8.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul8/Modul8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul9/Modul9.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul9/Modul9.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Tugas.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -107,12 +135,24 @@
           <linkerDynSerch>
             <pElem>.</pElem>
             <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerDynSerch>
         </linkerTool>
       </compileType>
       <item path="Modul1.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Modul1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul10/Modul10.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul10/Modul10.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul11/Modul11.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul11/Modul11.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Modul3/Modul3.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -131,6 +171,14 @@
       <item path="Modul7/Modul7.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Modul7/Modul7.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul8/Modul8.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul8/Modul8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Modul9/Modul9.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Modul9/Modul9.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Tugas.cpp" ex="false" tool="1" flavor2="0">
       </item>
